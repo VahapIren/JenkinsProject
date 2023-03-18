@@ -31,6 +31,7 @@ public class Driver {
                 browser = System.getProperty("BROWSER");
             }
             System.out.println("Browser: " + browser);
+
             switch (browser) {
                 case "remote-chrome":
                     try {
